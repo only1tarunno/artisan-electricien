@@ -65,7 +65,7 @@ a{
     text-decoration: none;
 }
 .cs-btn{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     padding: 10px 20px;
     text-transform: capitalize;
@@ -103,8 +103,8 @@ a{
 }
 .cs-btn-secondary:hover {
     color: var(--cs-white) !important;
-    background-color: var(--cs-btn) !important;
-    border: 1px solid var(--cs-btn) !important;
+    background-color: var(--cs-red) !important;
+    border: 1px solid var(--cs-red) !important;
 }
 .cs-btn-three:hover {
     color: var(--cs-white) !important;
@@ -450,6 +450,7 @@ position: relative;
     border-radius: 5px;
     width: 100%;
     padding: 15px 0; 
+    transition: all ease-in-out .4s;
 }
 .submit:hover{
     background: var(--cs-btn);
@@ -560,4 +561,12 @@ footer{
 }
 .sticky-btn p{
     font-size: 18px;
+}
+.nav-btn .cs-btn{
+    background-color: #DF3E39 !important;
+    border: 1px solid #DF3E39 !important;
+}
+.nav-btn .cs-btn:hover{
+    background-color: #c53733 !important;
+    border: 1px solid #c53733 !important;
 }
